@@ -4,7 +4,7 @@ document.getElementById('visualizeButton').addEventListener('click', function ()
     const inputData = document.getElementById('dataInput').value.split(',').map(Number);
 
     document.getElementById('visualizationContainer').innerHTML = '';
-    document.getElementById('steps-involved').innerHTML = '';
+    // document.getElementById('steps-involved').innerHTML = '';
 
     if (selectedAlgorithm === 'bubbleSort') {
         animateBubbleSort(inputData);
