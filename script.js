@@ -74,46 +74,46 @@ function getBubbleSortAnimations(arr) {
     return animations;
 }
 
-function bubbleSortVisualization(data) {
+// function bubbleSortVisualization(data) {
 
-    let stepsInvolved = document.getElementById('steps-involved');
-    // stepsInvolved.innerHTML = "hello!"
-    console.log("printing data")
-    console.log(data)
+//     let stepsInvolved = document.getElementById('steps-involved');
+//     // stepsInvolved.innerHTML = "hello!"
+//     console.log("printing data")
+//     console.log(data)
 
 
-    for (let i = 0; i < data.length; i++) {
+//     for (let i = 0; i < data.length; i++) {
 
-        for (let j = 0; j < data.length - i - 1; j++) {
+//         for (let j = 0; j < data.length - i - 1; j++) {
 
-            const stepContainer = document.createElement('div');
-            stepContainer.classList.add('step-container');
+//             const stepContainer = document.createElement('div');
+//             stepContainer.classList.add('step-container');
 
-            stepContainer.innerHTML = `
-                <h3>Step ${i + 1}</h3>
-                <p>Comparing elements ${j + 1} and ${j + 2}</p>
-            `;
+//             stepContainer.innerHTML = `
+//                 <h3>Step ${i + 1}</h3>
+//                 <p>Comparing elements ${j + 1} and ${j + 2}</p>
+//             `;
 
-            const box = document.createElement('div');
-            box.classList.add('box');
-            box.innerText = data[i];
+//             const box = document.createElement('div');
+//             box.classList.add('box');
+//             box.innerText = data[i];
 
-            stepContainer.appendChild(box);
+//             stepContainer.appendChild(box);
    
-            let boxes = stepContainer.childNodes;
+//             let boxes = stepContainer.childNodes;
     
-            stepsInvolved.appendChild(stepContainer);
+//             stepsInvolved.appendChild(stepContainer);
     
-            if (data[j] > data[j + 1]) {
-                [data[j], data[j + 1]] = [data[j + 1], data[j]];
-                stepsInvolved.innerHTML = `<p>As element ${j + 1} is greater than ${j + 2}, Swapping elements ${j + 1} and ${j + 2}<p>`;
-            } else {
-                stepsInvolved.innerHTML = `<p>As element ${j + 2} is greater than ${j + 1}, no swapping occurs</p>`;
-            }
+//             if (data[j] > data[j + 1]) {
+//                 [data[j], data[j + 1]] = [data[j + 1], data[j]];
+//                 stepsInvolved.innerHTML = `<p>As element ${j + 1} is greater than ${j + 2}, Swapping elements ${j + 1} and ${j + 2}<p>`;
+//             } else {
+//                 stepsInvolved.innerHTML = `<p>As element ${j + 2} is greater than ${j + 1}, no swapping occurs</p>`;
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
 // document.getElementById('visualizeButton').addEventListener('click', function () {
 
