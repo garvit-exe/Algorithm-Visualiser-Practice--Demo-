@@ -3,7 +3,7 @@
 Welcome to the Algorithm Visualization project! This project is designed to help you visualize various sorting algorithms. Currently, it supports the Bubble Sort algorithm.
 
 ## Demo
-You can check the live demo of the project [here](garvit-exe.github.io/Algorithm-Visualiser/)
+You can check the live demo of the project [here](garvit-exe.github.io/Algorithm-Visualiser/).
 
 ## Getting Started
 
@@ -35,6 +35,9 @@ Watch the algorithm in action as it sorts the data, and visualize each step.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or pull requests to enhance the project.
+
+## License
+This project is licensed under the [MIT License].
 
 ## Acknowledgements
 
