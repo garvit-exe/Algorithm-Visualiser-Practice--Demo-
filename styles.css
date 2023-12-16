@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.visualization-container {
+    display: flex;
+    position: relative;
+}
+
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid steelblue;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+
+.red {
+    background-color: black;
+    color: white;
+    border-color: red;
+}
+
+.visualize-button {
+    margin-bottom: 20px;
+}
+
+/* .steps {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.imtired {
+    display: none;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+} */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+/* .steps-involved {
+    background-color: white;
+    margin-left: 5px;
+} */
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Algorithm Visualization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Algorithm Visualization</h1>
+
+    <div class="input-container">
+        <label for="algorithmSelect">Select an Algorithm:</label>
+        <select id="algorithmSelect">
+            <option value="bubbleSort">Bubble Sort</option>
+        </select>
+    </div>
+
+    <div class="input-container">
+        <label for="dataInput">Enter Data (comma-separated):</label>
+        <input type="text" id="dataInput" placeholder="e.g., 5, 3, 8, 2, 1">
+    </div>
+
+    <button id="visualizeButton" class="visualize-button">Visualize</button>
+
+    <div id="visualizationContainer" class="visualization-container">
+    </div>
+
+    <!-- <div class="imtired" id="imtired">
+        <div class="steps" id="steps"></div>
+        <div class="steps-involved" id="steps-involved"></div><br>
+    </div> -->
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
