@@ -37,7 +37,7 @@ Watch the algorithm in action as it sorts the data, and visualize each step.
 Contributions are welcome! Feel free to open issues or pull requests to enhance the project.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/garvit-exe/Algorithm-Visualiser/blob/main/LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
