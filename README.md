@@ -42,6 +42,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - The project uses D3.js for data visualization.
-
-## Author
-Garvit
