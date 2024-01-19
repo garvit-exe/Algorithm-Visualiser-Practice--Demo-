@@ -19,7 +19,7 @@ Follow these instructions to set up and run the project locally.
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/algorithm-visualization.git
+   git clone https://github.com/garvit-exe/Algorithm-Visualiser.git
 
 ## Usage
 
@@ -27,7 +27,7 @@ Follow these instructions to set up and run the project locally.
 - Enter data (comma-separated) in the input field.
 - Click the "Visualize" button.
 
-Watch the algorithm in action as it sorts the data, and visualize each step.
+Watch the algorithm in action as it sorts the data, and visualizes each step.
 
 ## Supported Algorithms
 
